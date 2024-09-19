@@ -39,6 +39,8 @@ public class Calculator {
                 continue;
             }
 
+
+            
             // Выполнение операции
             calculator.calculate(operation, number);
             System.out.println("Текущий результат: " + calculator.getResult());
